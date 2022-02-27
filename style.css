@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(255, 220, 220);
+    background-size: cover;
+    position: relative;   
+}
+
+#container{
+    width: 60%;
+    padding: 20px;
+    margin: 25px auto;
+    border: 2px solid grey;
+    background-color: rgb(210, 240, 202);
+     
+    border-radius: 12px;
+}
+
+#header_text, #main_sec, #footer_sec{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.heading_table{
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#main_sec{
+    height: 400px;
+    overflow: auto;
+}
+
+h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+#main_sec > table{
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+    border: 1px solid black;
+    margin-bottom: 45px;
+    border-collapse: collapse;
+}
+
+th{
+    height: 40px;
+}
+
+#main_sec th, #main_sec  td{
+    border: 1px solid black;
+}
+
+#settings-div{
+    height: 55px;
+    position: relative;
+}
+
+#footer_sec > div{
+    right: 0px;
+    padding: 0px;
+}
+
+.last_sec_btn{
+    display: flex;
+    justify-content: space-around;
+}
+
+.deleteBtn {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    height: 25px;
+    width: 80px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 13px;
+}
+
+.deleteBtn:hover{
+    background-color: black;
+    padding-top: 3px;
+    color: rgb(250, 184, 61);
+    border: 1px solid rgb(250, 184, 61);
+}
+
+.btn_reset, .btn_addRow{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: rgb(247, 112, 22);
+    /* border: 2px solid rgb(252, 129, 28); */
+    border: none;
+    border-radius: 5px;
+    margin: 10px 50px;
+}
+
+.btn_reset:hover, .btn_addRow:hover{
+    color: black;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 5px 5px 10px rgb(202, 201, 201);
+
+    /* border: 2px solid black; */
+}
+
+.outer_area{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.btn_css {
+    display: block;
+    width: 125px;
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, #C04848 0%, #480048 51%, #C04848 100%);
+    box-shadow: 0 0 20px rgb(202, 201, 201);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn_css:hover {
+    background-position: right center;
+    box-shadow: 0 20px 20px rgb(202, 201, 201);
+
+}
